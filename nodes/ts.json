@@ -1,0 +1,6 @@
+{"run_list":[
+  "git",
+  "mysql5.5",
+  "tomcat7",
+  "nginx"
+]}
