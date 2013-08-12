@@ -3,6 +3,13 @@
 		"server_repl_password": "",
 		"server_debian_password": ""
 
-		},	
+		},
+	"java":{
+		"jdk_version":"7",
+		"install_flavor":"oracle",
+		"oracle":{
+			"accept_oracle_download_terms":true
+		}
+},
 
-	"run_list":["tomcat7","maven2","git","recipe[mysql::server]"]}
+	"run_list":["tomcat7","maven2","git","recipe[mysql::server]", "java"]}
