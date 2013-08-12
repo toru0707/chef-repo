@@ -1,4 +1,3 @@
 site :opscode
-cookbook 'vsftpd'
-cookbook 'postgresql'
+cookbook 'nodejs'
 cookbook 'mysql'
