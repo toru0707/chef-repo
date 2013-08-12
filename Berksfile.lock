@@ -6,6 +6,9 @@
     "mysql": {
       "locked_version": "3.0.2"
     },
+    "database": {
+      "locked_version": "1.4.0"
+    },
     "build-essential": {
       "locked_version": "1.4.0"
     },
@@ -14,6 +17,15 @@
     },
     "openssl": {
       "locked_version": "1.0.2"
+    },
+    "postgresql": {
+      "locked_version": "3.0.2"
+    },
+    "aws": {
+      "locked_version": "0.101.2"
+    },
+    "xfs": {
+      "locked_version": "1.1.0"
     }
   }
 }
